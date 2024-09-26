@@ -22,6 +22,10 @@ app.add_middleware(
 async def startup_event():
     process_pdf()
 
+@app.get("/")
+async def health():
+    return "Hello, Working Fine"
+
 @app.post("/query")
 async def query_llm(question:Question):
     try:
