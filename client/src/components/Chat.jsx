@@ -9,7 +9,7 @@ const Chat = () => {
 
   return (
     <div className="flex flex-col justify-between h-full">
-      <div className="h-full p-2">
+      <div className="h-full p-2 overflow-y-scroll">
         {messages.length > 0 ? (
           <div>
             {messages.map((message) => (

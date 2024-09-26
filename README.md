@@ -2,6 +2,17 @@
 
 A webapp to get your doubts solved using AI (limited to NCERT book and Sound Chapter)
 
+## Screenshots
+
+### Home Page
+<img src="screenshots/home.png" />
+
+### Default RAG
+<img src="screenshots/demo1.png" />
+
+### RAG With Agent
+<img src="screenshots/demo2.png" />
+
 ## A bit about myself and thought process
 
 Already Known: Frontend part <br>
@@ -39,7 +50,13 @@ Basicaly I learned everything related to backend part of this project
 
 - Adding more knowledge to LLM by adding diverse datasets in other subjects
 - Adding memory to Agent
+- Store history similar to ChatGPT and enable users to access from it
 - Research more in this domain various models and their pro, cons, embedding methods, vectorDB etc.,
+
+## Additional Features
+
+- Generate Flash cards on the subject for quick revision
+- Quiz section to test the knowledge 
 
 ## Steps to Run the Application
 
