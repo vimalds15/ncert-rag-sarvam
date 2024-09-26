@@ -34,7 +34,7 @@ def get_llm_agent_response(user_query: str):
     )
 
     prompt = hub.pull("hwchase17/react")
-    model = ChatGroq(model="llama3-8b-8192",api_key=os.getenv("GROQ_API_KEY"))
+    model = ChatGroq(model="llama3-8b-8192",api_key="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")
 
     tools = [query_tool]
     agent = create_react_agent(llm=model, tools=tools, prompt=prompt, stop_sequence=True)
@@ -57,7 +57,7 @@ def get_llm_response(user_query:str):
     + "\n\n Keep it concise you should only return the answer. dont include the question" + user_query + "in the result and also don't include reevant docs. and no kind of thing should be returned and strictly no bluff and don't return any note"
     )
 
-    model = ChatGroq(model="llama3-8b-8192",api_key=os.getenv("GROQ_API_KEY"))
+    model = ChatGroq(model="llama3-8b-8192",api_key="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")
 
     messages = [
         SystemMessage("You are a helpful assistant."),
