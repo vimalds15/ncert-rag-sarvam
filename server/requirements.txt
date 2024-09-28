@@ -7,3 +7,4 @@ pydantic==2.9.2
 PyPDF2==3.0.1
 uvicorn
 sentence_transformers
+chromadb
