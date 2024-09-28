@@ -1,4 +1,4 @@
-# Sarvam.ai Assignment - Anto Vimalan S
+# NCERT AI
 
 A webapp to get your doubts solved using AI (limited to NCERT book and Sound Chapter)
 
